@@ -10,11 +10,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Copyright>Copyright 2020 Ihor Aleksieiev https://github.com/Axaprj</Copyright>
+    <Copyright>Copyright 2020 Ihor Aleksieiev</Copyright>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <FileVersion>1.0.0.1</FileVersion>
     <Description>Text Feature Extraction Formal Grammar Engine</Description>
     <Version>1.0.0.1</Version>
+    <RepositoryUrl>https://github.com/Axaprj/LexFeatExtr</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
