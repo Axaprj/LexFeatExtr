@@ -39,7 +39,6 @@ CO2Val[val:56 gkm]
 Consumption[combined consumption 
     Vals[Val[val:7.9 l100km]]
 ]
-Val[val:8.1 l100km]
 ```
 
 - "Its combined fuel consumption is 141.2 - 122.8 mpg , while CO 2 emissions are at least 49 g / km ."
