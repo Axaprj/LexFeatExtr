@@ -1,11 +1,11 @@
 # Axaprj.LexFeatExtr
 Text Feature Extraction Formal Grammar Engine 
-- Takenet.Textc involved, uses own [Takenet.Textc .Net Core port](https://github.com/Axaprj/textc-csharp/tree/port2core)
+- Takenet.Textc involved, uses own [Takenet.Textc .Net Core port](https://github.com/Axaprj/Takenet.Textc.Core)
 - common info [Formal Grammar](https://en.wikipedia.org/wiki/Formal_grammar)
 - common info [Backus–Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
 
 ## code
-VS 2017, VS 2019, .NET Core
+VS 2017, VS 2019, .NET Core v2.1
 
 ## terms and naming
 - `Terminal Symbol` - A Symbol that presented a particular input token or token sequence. The base element of `Expressions`. 
@@ -21,6 +21,10 @@ VS 2017, VS 2019, .NET Core
 - `Symbol Attribute` - Specification of a `Symbol`. Implements token matching and Product creation.
 
 ## example
+#### [Trivial grammar](https://github.com/Axaprj/LexFeatExtr/blob/master/Tests/Axaprj.LexFeatExtr.Tests/TrivialGrammarTest.cs) 
+#### [Sum calculator](https://github.com/Axaprj/LexFeatExtr/blob/master/Tests/Axaprj.LexFeatExtr.Tests/SumGrammarTest.cs) 
+#### [Lists parsing](https://github.com/Axaprj/LexFeatExtr/blob/master/Tests/Axaprj.LexFeatExtr.Tests/ListGrammarTest.cs) 
+#### [Consumption info analyzer demo](https://github.com/Axaprj/LexFeatExtr/blob/master/Tests/Axaprj.LexFeatExtr.Tests/ConsumptionDemo.cs)
 Sample of specialized texts parsing. Randomly selected parts of specialized texts are used.
 Easy spacing preprocessing required.
 See the grammar in source [Axaprj.LexFeatExtr.Tests.ConsumptionDemo](https://github.com/Axaprj/LexFeatExtr/blob/master/Tests/Axaprj.LexFeatExtr.Tests/ConsumptionDemo.cs).
