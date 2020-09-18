@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Axaprj.LexFeatExtr.Grammar.Attributes.SymbolAttribute">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAAAAAAEAAAAAAAAAQAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\SymbolAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Axaprj.LexFeatExtr.Grammar.Attributes.AnyTokenAttribute">
+    <Position X="5" Y="6.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\AnyTokenAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Axaprj.LexFeatExtr.Grammar.Attributes.NonTermAttribute">
+    <Position X="4.75" Y="2.25" Width="2.25" />
+    <InheritanceLine Type="Axaprj.LexFeatExtr.Grammar.Attributes.SymbolAttribute" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="0.885" />
+        <Point X="6.438" Y="0.885" />
+        <Point X="6.438" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\NonTermAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Axaprj.LexFeatExtr.Grammar.Attributes.TermAttribute">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="Axaprj.LexFeatExtr.Grammar.Attributes.SymbolAttribute" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="0.933" />
+        <Point X="1.75" Y="0.933" />
+        <Point X="1.75" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\TermAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Axaprj.LexFeatExtr.Grammar.Attributes.SpecCharTokenAttribute" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Grammar\Attributes\SpecCharTokenAttribute.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CharSet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Axaprj.LexFeatExtr.Grammar.Attributes.CollectCountAttribute">
+    <Position X="2.75" Y="6.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\CollectCountAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Axaprj.LexFeatExtr.Grammar.Attributes.TextCAttribute">
+    <Position X="7.75" Y="5.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BgAAAAAAAAFAAAAFBAAgAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\TextCAttribute.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_detector" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Axaprj.LexFeatExtr.Grammar.Attributes.IGAttrSymbol">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\IGrammarAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Axaprj.LexFeatExtr.Grammar.Attributes.IGAttrNonTerm">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\IGrammarAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Axaprj.LexFeatExtr.Grammar.Attributes.IGAttrTerm">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\IGrammarAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Axaprj.LexFeatExtr.Detectors.IMatchDetector">
+    <Position X="7.75" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Detectors\IMatchDetector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Axaprj.LexFeatExtr.Grammar.Attributes.CHSP">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAIEAAAAAAASAAAAgAAAAAAA=</HashCode>
+      <FileName>Grammar\Attributes\SpecCharTokenAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
