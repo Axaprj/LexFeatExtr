@@ -11,10 +11,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Copyright>Copyright 2020 Ihor Aleksieiev</Copyright>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <FileVersion>1.0.0.2</FileVersion>
     <Description>Text Feature Extraction Formal Grammar Engine</Description>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <RepositoryUrl>https://github.com/Axaprj/LexFeatExtr</RepositoryUrl>
   </PropertyGroup>
 
@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Takenet.Textc.Core" Version="0.2.29.1" />
+    <PackageReference Include="Takenet.Textc.Core" Version="0.2.29.2" />
   </ItemGroup>
 
 </Project>
