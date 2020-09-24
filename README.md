@@ -43,7 +43,7 @@ CO2Val[val:56 gkm]
 Consumption[combined consumption 
     Vals[Val[val:7.9 l100km]]
 ]
-// 8.1 value omitted - the current version issue
+// 8.1 value omitted -  bug of the current demo grammar
 ```
 
 - "Its combined fuel consumption is 141.2 - 122.8 mpg , while CO 2 emissions are at least 49 g / km ."
